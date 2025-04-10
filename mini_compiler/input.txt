@@ -1,0 +1,16 @@
+int a;
+int b;
+int result;
+
+a = 10;
+b = 5;
+
+while (a > 0) {
+    if (a > b) {
+        result = a - b;
+    } else {
+        result = b - a;
+    }
+
+    a = a - 1;
+}
